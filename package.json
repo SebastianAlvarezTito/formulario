@@ -1,0 +1,11 @@
+{
+  "name": "prototipoweb",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build-css": "node node_modules/tailwindcss/lib/cli.js --input ./static/css/input.css --output ./static/css/output.css --watch",
+    "build": "node node_modules/tailwindcss/lib/cli.js --input ./static/css/input.css --output ./static/css/output.css",
+    "dev": "node node_modules/tailwindcss/lib/cli.js --input ./static/css/input.css --output ./static/css/output.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
